@@ -1,0 +1,22 @@
+# Secrets and credentials — never commit
+.env
+credentials.json
+token.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Personal vault data — calendar cache, backups, briefings, proposals
+.vault-secretary/cache/
+.vault-secretary/backups/
+Briefings/
+Proposals/
+
+# Obsidian workspace state
+.obsidian/
